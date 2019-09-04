@@ -59,9 +59,9 @@
 
     <distributionManagement>
         <repository>
-            <id>bintray-filosganga</id>
-            <name>bintray-filosganga-maven</name>
-            <url>https://api.bintray.com/maven/filosganga/maven/geogson</url>
+            <id>nexus</id>
+            <name>lemaf-nexus</name>
+            <url>http://repo.ti.lemaf.ufla.br/repository/thirdparty/</url>
         </repository>
     </distributionManagement>
 
