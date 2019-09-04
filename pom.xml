@@ -61,7 +61,7 @@
         <repository>
             <id>nexus</id>
             <name>lemaf-nexus</name>
-            <url>http://repo.ti.lemaf.ufla.br/repository/thirdparty/</url>
+            <url>http://repo.ti.lemaf.ufla.br/repository/thirdparty-snapshots/</url>
         </repository>
     </distributionManagement>
 
