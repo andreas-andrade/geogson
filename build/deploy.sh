@@ -2,13 +2,13 @@
 
 set -e
 
-if [ -z ${BINTRAY_USERNAME+x} ];
-    then echo "BINTRAY_USERNAME is unset";
+if [ -z ${NEXUS_USERNAME+x} ];
+    then echo "NEXUS_USERNAME is unset";
     exit 1;
 fi
 
-if [ -z ${BINTRAY_PASSWORD+x} ];
-    then echo "BINTRAY_PASSWORD is unset";
+if [ -z ${NEXUS_PASSWORD+x} ];
+    then echo "NEXUS_PASSWORD is unset";
     exit 1;
 fi
 
